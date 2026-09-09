@@ -1,2 +1,2 @@
 # sgu26-mayhoc
-Máy học SGU26
+LÊ VĂN HIẾU - 3124411091 -MÁY HỌC - SGU26

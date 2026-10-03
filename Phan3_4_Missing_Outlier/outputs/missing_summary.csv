@@ -1,0 +1,20 @@
+﻿,n_missing,pct,kieu,phan_loai
+PoolQC,1453,99.52,phân loại,cấu trúc
+MiscFeature,1406,96.3,phân loại,cấu trúc
+Alley,1369,93.77,phân loại,cấu trúc
+Fence,1179,80.75,phân loại,cấu trúc
+FireplaceQu,690,47.26,phân loại,cấu trúc
+LotFrontage,259,17.74,số,thiếu thật
+GarageCond,81,5.55,phân loại,cấu trúc
+GarageType,81,5.55,phân loại,cấu trúc
+GarageYrBlt,81,5.55,số,cấu trúc
+GarageFinish,81,5.55,phân loại,cấu trúc
+GarageQual,81,5.55,phân loại,cấu trúc
+BsmtFinType2,38,2.6,phân loại,cấu trúc + thiếu thật
+BsmtExposure,38,2.6,phân loại,cấu trúc + thiếu thật
+BsmtCond,37,2.53,phân loại,cấu trúc
+BsmtQual,37,2.53,phân loại,cấu trúc
+BsmtFinType1,37,2.53,phân loại,cấu trúc
+MasVnrType,8,0.55,phân loại,thiếu thật
+MasVnrArea,8,0.55,số,thiếu thật
+Electrical,1,0.07,phân loại,thiếu thật

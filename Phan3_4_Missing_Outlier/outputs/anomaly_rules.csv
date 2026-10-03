@@ -1,0 +1,21 @@
+﻿quy_tac,muc_do,so_dong_vi_pham,Id_vi_pham (tối đa 8),ket_qua
+Bán trước khi tu sửa xong (YrSold < YearRemodAdd),Lỗi logic,1,[524],Lỗi logic
+Bán trước khi xây (YrSold < YearBuilt),Lỗi logic,0,[],Đạt
+Tu sửa trước khi xây (YearRemodAdd < YearBuilt),Lỗi logic,0,[],Đạt
+Garage xây sau năm bán (GarageYrBlt > YrSold),Lỗi logic,0,[],Đạt
+Garage xây trước nhà (GarageYrBlt < YearBuilt),Đáng ngờ,9,"[30, 94, 325, 601, 737, 1104, 1377, 1415]",Đáng ngờ
+Tổng tầng ≠ GrLivArea (1st+2nd+LowQual),Lỗi logic,0,[],Đạt
+Tổng diện tích hầm ≠ TotalBsmtSF,Lỗi logic,0,[],Đạt
+Có phòng tắm hầm nhưng TotalBsmtSF = 0,Lỗi logic,0,[],Đạt
+GarageCars và GarageArea mâu thuẫn (một cái = 0),Lỗi logic,0,[],Đạt
+PoolArea và PoolQC mâu thuẫn,Lỗi logic,0,[],Đạt
+Fireplaces và FireplaceQu mâu thuẫn,Lỗi logic,0,[],Đạt
+"MasVnrType=""None"" nhưng MasVnrArea>0 (hoặc ngược lại)",Lỗi nhập liệu,7,"[625, 689, 774, 1231, 1242, 1301, 1335]",Lỗi nhập liệu
+MiscFeature có nhưng MiscVal = 0,Đáng ngờ,2,"[874, 1201]",Đáng ngờ
+"Nhà ""1Story"" nhưng có diện tích tầng 2",Đáng ngờ,2,"[165, 1271]",Đáng ngờ
+Hầm lớn hơn tầng 1 (TotalBsmtSF > 1stFlrSF),Hiếm,35,"[42, 127, 154, 247, 270, 272, 280, 314]",Hiếm
+0 phòng ngủ trên mặt đất (BedroomAbvGr = 0),Hiếm,6,"[54, 190, 635, 1164, 1214, 1271]",Hiếm
+0 phòng tắm đầy đủ (FullBath = 0),Hiếm,9,"[54, 189, 376, 598, 635, 917, 1164, 1214]",Hiếm
+Số bếp ≠ 1 (KitchenAbvGr ≠ 1),Hiếm,68,"[9, 10, 18, 40, 49, 75, 79, 94]",Hiếm
+Dòng trùng lặp (trừ Id),Lỗi logic,0,[],Đạt
+Id trùng,Lỗi logic,0,[],Đạt
